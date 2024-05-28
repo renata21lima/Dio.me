@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/dio.me icon.png"
+      type="image/x-icon"
+    />
+    <title>Matéria Dio</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            text-align: justify;
+            font-size: 18px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 id="inicio">Dio.me: Primeiros Passos com HTML</h1>
+      <hr />
+      <h2 >Índice</h2>
+      <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li>
+          <a href="#clients">O que são <i>Clients e Servers</i></a>
+        </li>
+        <li>
+          <a href="#estrutura">Como é uma estrutura básica de um HTML?</a>
+        </li>
+        <li>
+          <a href="#listas"
+            >Entendendo a diferença entre listas ordenadas e não ordenadas</a
+          >
+        </li>
+        <li>
+          <a href="#ref">Links de referências</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <h2 id="historia">História dos Computadores</h2>
+      <p>
+        A história dos computadores começa com dispositivos antigos como o ábaco
+        para cálculos simples. No século XIX, Charles Babbage projetou a Máquina
+        Analítica, uma ideia pioneira de um computador programável. Ada
+        Lovelace, trabalhando com Babbage, é considerada a primeira programadora
+        de computador.
+      </p>
+
+      <p>
+        No século XX, durante a Segunda Guerra Mundial, surgiram os primeiros
+        computadores eletrônicos, como o Colossus e o ENIAC. A partir daí, a
+        tecnologia avançou rapidamente, com o uso de transistores substituindo
+        válvulas de vácuo, tornando os computadores mais compactos e eficientes.
+      </p>
+
+      <p>
+        Na década de 1970, a revolução dos computadores pessoais começou com
+        máquinas como o Apple I e o IBM PC, tornando a computação acessível ao
+        público. A década de 1980 viu o surgimento da computação em rede, com o
+        desenvolvimento da Internet e da World Wide Web nos anos 1990, mudando
+        drasticamente a maneira como as pessoas acessavam informações.
+      </p>
+
+      <p>
+        No século XXI, a computação móvel, com smartphones e tablets, tornou-se
+        dominante, e a computação em nuvem permitiu o armazenamento de dados
+        remotamente. Tecnologias como inteligência artificial e aprendizado de
+        máquina começaram a crescer, prometendo uma nova era de inovação na
+        computação. A história dos computadores é um testemunho do rápido avanço
+        tecnológico e seu impacto na sociedade.
+      </p>
+
+      <blockquote>
+        "Os computadores são como uma bicicleta para a mente." Steve Jobs.
+      </blockquote>
+      <span><a href="#inicio">Voltar para o Inicio</a></span>
+      <hr />
+
+      <h2 class="#clients">O que são Clients e Servers</h2>
+      <p>
+        "Clients" e "servers" são conceitos fundamentais na computação e nas
+        redes, referindo-se a papéis distintos em um sistema onde dispositivos
+        se comunicam entre si.
+      </p>
+
+      <p>
+        <u><b>Client (Cliente):</b></u> Um cliente é um dispositivo ou um
+        software que faz solicitações a um servidor para acessar serviços ou
+        recursos. Em um contexto de rede, pode ser um computador pessoal, um
+        smartphone, um tablet, ou até mesmo um navegador da web. O cliente
+        geralmente inicia a comunicação, solicitando dados ou serviços do
+        servidor. Por exemplo, quando você acessa um site, seu navegador é o
+        cliente que faz uma solicitação ao servidor do site para obter as
+        páginas que você deseja ver.
+      </p>
+
+      <p>
+        <u><b>Server (Servidor):</b></u> Um servidor é um dispositivo ou
+        software que fornece serviços ou recursos a clientes. Ele aguarda e
+        responde às solicitações dos clientes. Os servidores podem fornecer uma
+        ampla gama de serviços, como hospedagem de sites, armazenamento de
+        dados, execução de aplicativos, gerenciamento de bancos de dados, entre
+        outros. Eles são projetados para serem robustos e escaláveis, capazes de
+        lidar com múltiplas solicitações ao mesmo tempo. Por exemplo, um
+        servidor web armazena e serve páginas da web para navegadores (clientes)
+        que as solicitam.
+      </p>
+
+      <p>
+        Em suma, em um modelo de arquitetura cliente-servidor, o cliente faz
+        solicitações e o servidor responde a essas solicitações, oferecendo os
+        serviços ou recursos necessários. Este modelo é amplamente utilizado em
+        redes de computadores, na Internet, em aplicativos móveis e em muitos
+        outros contextos tecnológicos.
+      </p>
+      <span><a href="#inicio">Voltar para o Inicio</a></span>
+      <hr />
+
+      <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+      <p>
+        Uma estrutura básica de HTML <mark>(HyperText Markup Language)</mark> é
+        composta por elementos e tags que definem a estrutura e o conteúdo de
+        uma página da web. A versão mais recente, HTML5, segue um modelo padrão
+        que é amplamente reconhecido e usado.
+      </p>
+      <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang=&quot;pt-br&quot;&gt;
+        &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;title&gt;Título da Página&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Bem-vindo ao meu site&lt;/h1&gt;
+            &lt;p&gt;Este é um exemplo de página HTML básica.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </code></pre>
+
+      <p>
+        <b>&lt;!DOCTYPE html&gt;</b>: Informa ao navegador qual é o tipo de documento.
+        No caso do HTML5, a declaração do DOCTYPE é simples como essa. <br />
+        <b>&lt;html lang=&quot;pt-br&quot;&gt;</b> : O atributo lang define o idioma
+        principal do documento. Aqui está definido como português brasileiro.
+        <br />
+        <b>&lt;head&gt;</b>:Contém informações meta, como o título da página, a
+        codificação de caracteres &lt;meta charset=&quot;UTF-8&quot;&gt;, e
+        referências a recursos externos, como folhas de estilo CSS ou scripts
+        JavaScript. <br />
+        <b>&lt;title&gt;</b>: O título da página que aparecerá na aba do navegador ou
+            na barra de título. <br />
+        <b>&lt;body&gt;</b>: Contém o conteúdo visível da página, como textos, imagens,links, listas, tabelas, etc. Tudo o que será exibido ao usuário deveestar dentro desta seção. <br />
+        <b>&lt;h1&gt; a &lt;h6&gt;</b>: São tags para títulos e subtítulos <br />
+        <b>&lt;p&gt;</b>:Tag para parágrafos de texto. <br />
+        <b>&lt;ul&gt; e &lt;ol&gt;</b>: Tags para listas (não ordenada e ordenada,respectivamente). <br />
+        <b>&lt;a&gt;</b>: Tag para criar links. <br />
+        <b>&lt;img&gt;</b>: Tag para inserir imagens.
+      </p>
+      <span><a href="#inicio">Voltar para o Inicio</a></span>
+      <hr />
+
+      <h2 id="listas">
+        Entendendo a diferença entre listas ordenadas e não ordenadas
+      </h2>
+      <p>
+        <b>Lista Ordenada:</b> Marcada pela tag &lt;ol&gt;, exibe seus itens em
+        uma sequência específica. Cada item na lista recebe um número ou uma
+        letra para indicar sua posição na ordem. Listas ordenadas são ideais
+        quando a ordem dos itens é importante ou quando uma sequência precisa
+        ser seguida.
+      </p>
+      <p>
+        <b>Lista Não Ordenada:</b> Marcada pela tag &lt;ul&gt; exibe seus itens
+        sem uma ordem específica. Cada item é normalmente precedido por um
+        marcador (como um ponto, círculo ou quadrado). Listas não ordenadas são
+        adequadas quando a ordem dos itens não é importante, servindo para
+        agrupar informações de forma simples.
+      </p>
+      <span><a href="#inicio">Voltar para o Inicio</a></span>
+      <hr>
+
+      <h2 id="ref">Links de referências</h2>
+      
+      <ul>
+        <li><a href="http://dio.me" title="Dio.me" target="_blank">http://dio.me</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element" title="Mndn_" target="_blank">https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element</a></li>        
+    </ul>
+    <span><a href="#inicio">Voltar para o Inicio</a></span>
+    </main>
+  </body>
+</html>
