@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assest/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../pagina dois/sobre.css">
+    <title>Clínica Plenitude</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="../pagina inicial/paginaInicial.html">Inicio</a></li>
+                <li><a href="../pagina dois/sobre.html">Sobre</a></li>
+                <li><a href="../pagina tres/horario.html">Horário de Atendimento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+   
+    <div class="main">
+        <div class="header">
+            <img src="../assest/clinicadacidadepiracicaba_fotos-42.webp" alt="foto">
+        </div>
+
+        <div class="content">
+            <h3>Clínica Plenitude: Uma Jornada de Cuidado e Excelência Há Mais de 20 Anos</h3>
+                <p>Na Clínica Plenitude, acreditamos que a saúde e o bem-estar são alicerces para uma vida plena e feliz. Desde a nossa fundação, em 1999, nos dedicamos a oferecer serviços médicos de alta qualidade para toda a família, com foco em um atendimento humanizado e personalizado. </p>
+            <h4>Nossa História</h4>    
+            <p>A Clínica Plenitude nasceu do sonho de um grupo de médicos apaixonados por cuidar das pessoas. Motivados pela crença de que a saúde vai além da cura de doenças, buscavam criar um espaço acolhedor e profissional, onde cada paciente se sentisse acolhido e recebesse o melhor atendimento possível. <br>
+                Com o passar dos anos, a clínica se consolidou como referência em saúde na região, expandindo seus serviços e equipe para atender às necessidades cada vez mais complexas da população. Hoje, somos uma clínica completa, com especialistas em diversas áreas da medicina, prontos para oferecer um cuidado integral e personalizado para cada paciente.</p>
+            <h4>Nossa Missão e Valores</h4>
+            <p>Nossa missão é promover a saúde e o bem-estar das pessoas, através da prestação de serviços médicos de excelência, com foco na humanização do atendimento e na qualidade dos resultados. <br>
+                Ética e profissionalismo: Atuamos com ética e profissionalismo em todas as nossas ações, buscando sempre o melhor para os nossos pacientes. <br>
+                Humanização: Acreditamos que a saúde vai além da cura de doenças, por isso, nos dedicamos a oferecer um atendimento humanizado e acolhedor para cada paciente. <br>
+                Qualidade: Buscamos a excelência em todos os nossos serviços, utilizando as melhores tecnologias e recursos disponíveis. <br>
+                Trabalho em equipe: Acreditamos no poder do trabalho em equipe para alcançarmos os melhores resultados. Nossa equipe é formada por profissionais altamente qualificados e experientes, que trabalham juntos para oferecer o melhor atendimento aos nossos pacientes. <br>
+                Compromisso com a comunidade: Temos um compromisso com a comunidade em que estamos inseridos e buscamos contribuir para a promoção da saúde e do bem-estar da população.</p>
+        </div>
+        <div class="footer"> 
+            <h3 id="contato">Contato</h3>
+            <p>Telefone: (55) 11 2222-2222</p>
+            <p>Endereço: Rua das Flores, 123 - Centro</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117034.39971695049!2d-46.760345604291906!3d-23.55676862491772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce582a0a3b4c3f%3A0x878285f3f6b43c83!2sHospital%20das%20Cl%C3%ADnicas%20da%20Universidade%20de%20S%C3%A3o%20Paulo%20Emergency%20Room!5e0!3m2!1spt-BR!2sbr!4v1716931765397!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
+            <p>Instagram: @clinicaplenitude</p>
+            <div class="formulario">
+                <h3>Entre em Contato</h1>
+                <form id="formularioContato" onsubmit="return enviarFormulario()">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto da sua mensagem" required>
+                
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                
+                    <button type="submit">Enviar</button>
+                    <button type="reset" >Limpar Formulário</button>
+                </form>
+        </div>
+    </div>
+</body>
+</html>

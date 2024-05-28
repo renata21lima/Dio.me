@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assest/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./inicial.css">
+    <title>Clínica Plenitude</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="../pagina dois/sobre.html">Sobre</a></li>
+                <li><a href="../pagina tres/horario.html">Horário de Atendimento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="../assest/logo branca.png" alt="logotipo">
+            </div>
+    
+            <div class="content">
+                <h3>Bem-Vindo</h3>
+                <p>Na Clínica Plenitude, acreditamos que a saúde e o bem-estar são os pilares fundamentais para uma vida plena e feliz. Por isso, oferecemos uma ampla gama de serviços médicos de alta qualidade para toda a família, com foco em: <br>
+                    Clínica geral: Consultas médicas, check-ups, exames preventivos e acompanhamento de doenças crônicas. <br>
+                    Psicologia: Atendimento individual, familiar e infantil para auxiliar na resolução de conflitos, traumas e questões emocionais. <br>
+                    Pediatria: Acompanhamento do desenvolvimento infantil, desde o pré-natal até a adolescência, vacinação e tratamento de doenças infantis. <br>
+                    Oftalmologia: Consultas oftalmológicas, exames de acuidade visual, adaptação de lentes de contato e tratamento de doenças oculares. </p>
+                <p>Nossa equipe de profissionais altamente qualificados e experientes está dedicada a oferecer um atendimento personalizado, humanizado e de excelência, buscando sempre o melhor para cada paciente.</p>
+            </div>
+            
+            <div class="footer">
+                <h3 id="contato">Contato</h3>
+                <p>Telefone: (55) 11 2222-2222</p>
+                <p>Endereço: Rua das Flores, 123 - Centro</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117034.39971695049!2d-46.760345604291906!3d-23.55676862491772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce582a0a3b4c3f%3A0x878285f3f6b43c83!2sHospital%20das%20Cl%C3%ADnicas%20da%20Universidade%20de%20S%C3%A3o%20Paulo%20Emergency%20Room!5e0!3m2!1spt-BR!2sbr!4v1716931765397!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
+                <p>Instagram: @clinicaplenitude</p>
+                <div class="formulario">
+                    <h3>Entre em Contato</h1>
+                    <form id="formularioContato" onsubmit="return enviarFormulario()">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                    
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto da sua mensagem" required>
+                    
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                    
+                        <button type="submit">Enviar</button>
+                        <button type="reset" >Limpar Formulário</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

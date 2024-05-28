@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assest/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./horario.css">
+    <title>Clínica Plenitude</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="../pagina inicial/paginaInicial.html">Inicio</a></li>
+                <li><a href="../pagina dois/sobre.html">Sobre</a></li>
+                <li><a href="../pagina tres/horario.html">Horário de Atendimento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="header">
+            <img src="../assest/plano-de-negocios-clinica-medica-o-que-e.jpg" alt="logotipo">
+        </div>
+
+        <div class="content">
+            <h3>Especialiades</h3>
+            <p>Clínica Geral: Consultas médicas, check-ups, exames preventivos e acompanhamento de doenças crônicas. Nossos médicos experientes e atenciosos estão prontos para cuidar da saúde de toda a família, desde crianças até adultos. <br>
+                Psicologia: Atendimento individual, familiar e infantil para auxiliar na resolução de conflitos, traumas e questões emocionais. Nossa equipe de psicólogos qualificados oferece um espaço acolhedor e seguro para você lidar com os desafios da vida. <br>
+                Pediatria: Acompanhamento do desenvolvimento infantil, desde o pré-natal até a adolescência, vacinação e tratamento de doenças infantis. Nossos pediatras experientes garantem o cuidado integral da saúde das crianças, desde os primeiros dias de vida. <br>
+                Oftalmologia: Consultas oftalmológicas, exames de acuidade visual, adaptação de lentes de contato e tratamento de doenças oculares. Nossos oftalmologistas especializados cuidam da saúde dos seus olhos, garantindo uma visão perfeita e saudável.</p>
+            <div class="tabela">
+                <h3>Horário de Atendimento</h3>
+                <table>
+                    <tr>
+                    <th>Serviços</th>
+                    <th>Segunda a Sexta</th>
+                    <th>Sábados</th>
+                    <th>Feriados</th>
+                    </tr>
+                    <tr>
+                    <td>Clínica geral</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 14h</td>
+                    <td>08h - 14h</td>
+                    </tr>
+                    <tr>
+                    <td>Psicologia</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 14h</td>
+                    <td>08h - 14h</td>
+                    </tr>
+                    <tr>
+                    <td>Pediatria</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 18h</td>
+                    <td>-</td>
+                    </tr>
+                    <tr>
+                    <td>Oftalmologia</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 18h</td>
+                    <td>-</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3 id="contato">Contato</h3>
+            <p>Telefone: (55) 11 2222-2222</p>
+            <p>Endereço: Rua das Flores, 123 - Centro</p>
+            <p>Instagram: @clinicaplenitude</p>
+            <div class="formulario">
+                <h3>Entre em Contato</h1>
+                <form id="formularioContato" onsubmit="return enviarFormulario()">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto da sua mensagem" required>
+                
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                
+                    <button type="submit">Enviar</button>
+                    <button type="reset" >Limpar Formulário</button>
+                </form>
+            </div>
+        </div>
+</body>
+</html>
